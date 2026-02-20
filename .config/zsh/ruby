@@ -1,0 +1,6 @@
+set_ruby () {
+  path+=(${HOME}/.rbenv/bin)
+  export path
+
+  eval "$(rbenv init -)"
+}

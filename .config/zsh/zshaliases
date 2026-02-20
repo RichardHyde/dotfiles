@@ -1,0 +1,12 @@
+alias apt="sudo apt"
+alias m="more"
+alias e="$EDITOR"
+
+if [[ "$(which nvim)" ]]; then
+  alias nv=nvim
+else
+  alias nv=vim
+  alias nvim=vim
+fi
+
+

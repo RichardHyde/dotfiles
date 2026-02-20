@@ -1,0 +1,8 @@
+
+# set things up for connection via Secure ShellFish
+if [[ ${LC_TERMINAL} == "ShellFish" ]]; then
+  export prompt_char=
+fi
+
+test -e "$HOME/.shellfishrc" && source "$HOME/.shellfishrc"
+
